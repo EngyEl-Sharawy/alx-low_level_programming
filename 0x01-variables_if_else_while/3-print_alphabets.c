@@ -19,13 +19,13 @@ int main(void)
 		ch++;
 	}
 
-	putchar('\n');
-
 	while (CH <= 'Z')
 	{
 		putchar(CH);
 		CH++;
 	}
+
+	putchar('\n');
 
 	return (0);
 }
