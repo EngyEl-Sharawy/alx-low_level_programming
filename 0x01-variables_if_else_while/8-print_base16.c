@@ -16,7 +16,7 @@ int main(void)
 	{
 		if (digit == 57)
 		{
-			digit += 40;
+			digit += 38;
 		} else
 		{
 			putchar(digit);
