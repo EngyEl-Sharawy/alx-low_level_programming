@@ -1,8 +1,8 @@
 #include"main.h"
 
 /**
- * more_numbers - prints 10 times the numbers, from 0 to 14
- * and you can only use _putchar three times
+ * more_numbers - prints 0 - 14 ten times and you
+ * can only use _putchar three times
  *
  * Return: 0 (Success)
 */
