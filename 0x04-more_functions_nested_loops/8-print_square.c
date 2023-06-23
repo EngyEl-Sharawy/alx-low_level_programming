@@ -16,14 +16,7 @@ void print_square(int size)
 	{
 		for (column = 1; column <= size; column++)
 		{
-			if (row == 1 || row == size || column == 1 || column == size)
-			{
-				_putchar('#');
-			}
-			else
-			{
-				_putchar(' ');
-			}
+			_putchar(35);
 		}
 		_putchar('\n');
 	}
