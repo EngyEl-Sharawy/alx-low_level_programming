@@ -12,5 +12,7 @@ void print_numbers(void)
 
 	if (num >= 48 && num <= 57)
 		_putchar("%d");
+		num++;
+
 	 _putchar('\n');
 }
