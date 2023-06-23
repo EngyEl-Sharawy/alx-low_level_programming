@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * print numbers1 1 - 100 followed by a new line numbers
+ * print numbers 1 - 100 followed by a new line numbers
  * that are multiples of 3 print Fizz
  * that are multiples of 5 print Buzz
  * that are multiples of 3 and 5 print FizzBuzz
