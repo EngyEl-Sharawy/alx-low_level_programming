@@ -15,7 +15,7 @@ int isLower(char c)
 }
 
 /**
- * isDelimiter - determines whether ascii is delimiterOA
+ * isDelimiter - determines whether ascii is delimiter
  *
  * @c: character
  *
@@ -25,9 +25,9 @@ int isLower(char c)
 int isDelimiter(char c)
 {
 	int i;
-	char delimiter[] = "\t\n,.!?\"(){}";
+	char delimiter[] = " \t\n,;.!?\"(){}";
 
-	for (i = 0; i < 12; i++)
+	for (i = 0; i < 14; i++)
 		if (c == delimiter[i])
 			return (1);
 
