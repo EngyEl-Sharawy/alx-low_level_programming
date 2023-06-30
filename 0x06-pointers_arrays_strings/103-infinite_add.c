@@ -36,7 +36,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		else
 			f = 0;
 		if (j >= 0)
-			s = n2[i] - '0';
+			s = n2[j] - '0';
 		else
 			s = 0;
 		r[k] = (f + s + d) % 10 + '0';
@@ -44,8 +44,8 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	}
 	if (d == 1)
 	{
-		r[l + 1] = '\0';
-		if (l + 2 > size_r)
+		r[l + 2] = '\0';
+		if (l + 3 > size_r)
 			return (0);
 		while (l-- >= 0)
 			r[l + 1] = r[l];
