@@ -11,17 +11,17 @@
 char *leet(char *c)
 {
 	char *cp = c;
-	char key[] = {'A', 'E', 'O', 'T', 'L'};
-	int value[] = {4, 3, 0, 7, 1};
+	char key[] = {'A', 'a', 'E', 'e', 'O', 'o', 'T', 't', 'L', 'l'};
+	int value[] = {4, 4, 3, 3, 0, 0, 7, 7, 1, 1};
 	unsigned int i;
 
 	while (*c)
 	{
 		for (i = 0; i < sizeof(key) / sizeof(char); i++)
 		{
-			if (*c == key[i] || *c == key[i] - 32)
+			if (*c == key[i])
 			{
-				*c = 48 + value[i];
+				*c = value[i] + '0';
 			}
 		}
 		c++;
