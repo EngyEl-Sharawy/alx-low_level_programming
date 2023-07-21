@@ -1,5 +1,6 @@
 #include "dog.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * _strlen - function that gets a length of string
@@ -23,7 +24,7 @@ int _strlen(const char *str)
  * Return: @dest
 */
 
-char _strcopy(char *dest, char *src)
+char *_strcopy(char *dest, char *src)
 {
 	int i;
 
